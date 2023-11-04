@@ -29,7 +29,7 @@ public:
 
 //  Auto permite identificar el tipo por el contexto
 //  En c++11: auto main () -> int //
-int main()
+int clase1()
 {
     // auto n = int{1};
     // auto d = double{9.8};

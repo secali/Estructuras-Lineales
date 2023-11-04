@@ -5,7 +5,7 @@ VERSION 0.1.0
 DESCRIPTION "Proyecto sencillo de C++ con un solo target"
 LANGUAGES CXX
 )
-add_executable(${PROJECT_NAME} clase1.cpp clase2.cpp)
+add_executable(${PROJECT_NAME} main.cpp clase1.cpp clase2.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
 set_target_properties(${PROJECT_NAME} PROPERTIES
 CXX_EXTENSIONS OFF
