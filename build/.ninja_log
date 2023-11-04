@@ -1,7 +1,6 @@
 # ninja log v5
 3	371	7196115743484720	CMakeFiles/clase0-Intro-Vectores.dir/main.cpp.obj	83d26db0bb510ced
 382	461	7196115744354602	clase0-Intro-Vectores.exe	446d47b30ae05378
-6	1590	7208179900217200	CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj	abc4bc2d5944de2c
-1592	1812	7208179902402718	debug/Clase0-Intro-Vector.exe	947a823c44c8b00e
-9	1231	7208182931330763	CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj	abc4bc2d5944de2c
-1232	1355	7208182932559597	debug/Clase0-Intro-Vector.exe	947a823c44c8b00e
+7	1230	7208184962414349	CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj	abc4bc2d5944de2c
+1231	1335	7208184963446165	debug/Clase0-Intro-Vector.exe	947a823c44c8b00e
+10	16	0	clean	c0505d4284e53968

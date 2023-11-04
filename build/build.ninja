@@ -49,8 +49,14 @@ cmake_ninja_workdir = C$:/Users/Sergio/Documents/CPP2/build/
 
 build cmake_object_order_depends_target_Clase0-Intro-Vector: phony || CMakeFiles/Clase0-Intro-Vector.dir
 
-build CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/main.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
-  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\main.cpp.obj.d
+build CMakeFiles/Clase0-Intro-Vector.dir/clase1.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase1.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
+  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\clase1.cpp.obj.d
+  FLAGS = -g -std=c++23 -Wall -Wextra -pedantic
+  OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+
+build CMakeFiles/Clase0-Intro-Vector.dir/clase2.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase2.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
+  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\clase2.cpp.obj.d
   FLAGS = -g -std=c++23 -Wall -Wextra -pedantic
   OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
   OBJECT_FILE_DIR = CMakeFiles\Clase0-Intro-Vector.dir
@@ -63,7 +69,7 @@ build CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj: CXX_COMPILER__Clase0-Intr
 #############################################
 # Link the executable debug\Clase0-Intro-Vector.exe
 
-build debug/Clase0-Intro-Vector.exe: CXX_EXECUTABLE_LINKER__Clase0-Intro-Vector_Debug CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj
+build debug/Clase0-Intro-Vector.exe: CXX_EXECUTABLE_LINKER__Clase0-Intro-Vector_Debug CMakeFiles/Clase0-Intro-Vector.dir/clase1.cpp.obj CMakeFiles/Clase0-Intro-Vector.dir/clase2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
