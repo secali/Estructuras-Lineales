@@ -33,20 +33,20 @@ auto clase2 () -> int
     //pel:: println("i={}, j={}", i, j);
 
     //
-    auto i = int {1};
+    //auto i = int {1};
 
-    incrementar_una_unidad(i);
+    //incrementar_una_unidad(i);
     //i sigue siendo 1 porque no la hemos pasado como referencia, entonces se crea una copia de ella en la func
-     pel:: println("i={}", i);
+    //pel::println("i={}", i);
     
-    incrementar_una_unidad_por_referencia(i);
+    //incrementar_una_unidad_por_referencia(i);
     //ahora si se incrementa porque esta función si recibe el parametro por referencia
-    pel:: println("i={}", i);
+    //pel::println("i={}", i);
 
 
     //Cómo crear un puntero:
-    auto i = int {1};
-    int *p = &i;        //el puntero p guarda la dirección de memoria de i
+    //auto i = int {1};
+    //int *p = &i;        //el puntero p guarda la dirección de memoria de i
 
     auto d = double{7.8};
     double* q = &d;
@@ -58,5 +58,24 @@ auto clase2 () -> int
 
     pel::println("i={}", *p);   //Como p es el puntero que tiene la dirección de i, con * accedemos a la dirección de p
 
+    
+
+    //Como crear un struct:
+
+    struct Student{
+        string name;
+        double grade_1;
+        double grade_2;
+        double grade_3;
+
+        auto average() -> double
+        {
+            return (grade_1 + grade_2 + grade_3) /3.0;
+        }
+
+    };
+
+    auto my_student = Student("Miguelito", 7,6, 8);
+    pel::println("name={}, average grade={}", my_student.name, my_student.average());
 
 }
