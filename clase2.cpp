@@ -76,6 +76,9 @@ auto clase2 () -> int
     };
 
     auto my_student = Student("Miguelito", 7,6, 8);
-    pel::println("name={}, average grade={}", my_student.name, my_student.average());
+    //usando el puntero accedo al valor de la variable, en vez de poner (*puntero) uso operador simplificado puntero->
+    Student *puntero = &my_student;
+    
+    pel::println("name={}, average grade={:.2f}", puntero->name, puntero->average());
 
 }
