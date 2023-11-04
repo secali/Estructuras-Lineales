@@ -2,6 +2,7 @@
 #include <format>   //permite el formato de texto
 #include <string>   //cadenas de caracteres
 #include <vector>   //contenedor secuencial de datos recomendado por defecto en c++
+#include "pel_print.hpp" //libreria para hacer print
 
 using namespace std;
 
@@ -55,14 +56,20 @@ int main()
     while (getline(cin, nameInput))
     {
         nameVector.push_back(nameInput); // introduce al final del vector el string
-        cout<<"Insert a text: ";
+        cout<<"Insert a name: ";
     }
 
     // Visitamos el vector de Strings
     for (string nameExtracted : nameVector)
     {
-        cout <<"->"<< nameExtracted << "\n";
+        pel::println("-> name: {} \n", nameExtracted);
     }
+
+    // ##################################################################################################
+    // ##################################################################################################
+
+
+
 
     return 0;
 }

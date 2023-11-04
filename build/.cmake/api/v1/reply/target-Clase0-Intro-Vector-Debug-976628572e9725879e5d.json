@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "clase0-Intro-Vectores.exe"
+			"path" : "debug/Clase0-Intro-Vector.exe"
 		},
 		{
-			"path" : "clase0-Intro-Vectores.pdb"
+			"path" : "debug/Clase0-Intro-Vector.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +13,10 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_compile_options",
+			"target_compile_features",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -27,7 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -38,17 +59,38 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=c++23"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pedantic"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					4
+				],
+				"standard" : "23"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "clase0-Intro-Vectores::@6890427a1f51a3e7e1df",
+	"id" : "Clase0-Intro-Vector::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +110,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "clase0-Intro-Vectores",
-	"nameOnDisk" : "clase0-Intro-Vectores.exe",
+	"name" : "Clase0-Intro-Vector",
+	"nameOnDisk" : "Clase0-Intro-Vector.exe",
 	"paths" : 
 	{
 		"build" : ".",

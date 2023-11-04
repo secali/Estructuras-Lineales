@@ -14,22 +14,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "BZRCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -150,10 +134,6 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
 					"value" : "Path to ctest program executable."
 				}
@@ -171,10 +151,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
@@ -315,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/msys64/ucrt64/bin/gcc.exe"
 		},
 		{
@@ -871,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : ""
+			"value" : "Proyecto sencillo de C++ con un solo target"
 		},
 		{
 			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
@@ -895,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "clase0-Intro-Vectores"
+			"value" : "Clase0-Intro-Vector"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1558,36 +1538,40 @@
 			"value" : "5"
 		},
 		{
-			"name" : "CVSCOMMAND",
+			"name" : "Clase0-Intro-Vector_BINARY_DIR",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "STATIC",
+			"value" : "C:/Users/Sergio/Documents/CPP2/build"
 		},
 		{
-			"name" : "CVS_UPDATE_OPTIONS",
+			"name" : "Clase0-Intro-Vector_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Clase0-Intro-Vector_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Sergio/Documents/CPP2"
 		},
 		{
 			"name" : "DART_TESTING_TIMEOUT",
@@ -1606,36 +1590,16 @@
 			"value" : "1500"
 		},
 		{
-			"name" : "GITCOMMAND",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Details about finding nlohmann_json"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
-			"name" : "HGCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "INTERNAL",
+			"value" : "[C:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.2()]"
 		},
 		{
 			"name" : "MAKECOMMAND",
@@ -1686,22 +1650,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "P4COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "SITE",
 			"properties" : 
 			[
@@ -1716,22 +1664,6 @@
 			],
 			"type" : "STRING",
 			"value" : "Legion5"
-		},
-		{
-			"name" : "SVNCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1780,6 +1712,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/Sergio/Documents/CPP2"
+		},
+		{
+			"name" : "nlohmann_json_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for nlohmann_json."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/msys64/ucrt64/share/cmake/nlohmann_json"
 		}
 	],
 	"kind" : "cache",
