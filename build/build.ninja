@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Clase0-Intro-Vector
+# Project: mi-proyecto-sencillo-de-clase
 # Configurations: Debug
 # =============================================================================
 
@@ -41,49 +41,49 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Sergio/Documents/CPP2/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target Clase0-Intro-Vector
+# Object build statements for EXECUTABLE target mi-proyecto-sencillo-de-clase
 
 
 #############################################
-# Order-only phony target for Clase0-Intro-Vector
+# Order-only phony target for mi-proyecto-sencillo-de-clase
 
-build cmake_object_order_depends_target_Clase0-Intro-Vector: phony || CMakeFiles/Clase0-Intro-Vector.dir
+build cmake_object_order_depends_target_mi-proyecto-sencillo-de-clase: phony || CMakeFiles/mi-proyecto-sencillo-de-clase.dir
 
-build CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/main.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
-  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\main.cpp.obj.d
+build CMakeFiles/mi-proyecto-sencillo-de-clase.dir/main.cpp.obj: CXX_COMPILER__mi-proyecto-sencillo-de-clase_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/main.cpp || cmake_object_order_depends_target_mi-proyecto-sencillo-de-clase
+  DEP_FILE = CMakeFiles\mi-proyecto-sencillo-de-clase.dir\main.cpp.obj.d
   FLAGS = -g -std=c++23 -Wall -Wextra -pedantic
-  OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
-  OBJECT_FILE_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+  OBJECT_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
+  OBJECT_FILE_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
 
-build CMakeFiles/Clase0-Intro-Vector.dir/clase1.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase1.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
-  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\clase1.cpp.obj.d
+build CMakeFiles/mi-proyecto-sencillo-de-clase.dir/clase1.cpp.obj: CXX_COMPILER__mi-proyecto-sencillo-de-clase_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase1.cpp || cmake_object_order_depends_target_mi-proyecto-sencillo-de-clase
+  DEP_FILE = CMakeFiles\mi-proyecto-sencillo-de-clase.dir\clase1.cpp.obj.d
   FLAGS = -g -std=c++23 -Wall -Wextra -pedantic
-  OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
-  OBJECT_FILE_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+  OBJECT_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
+  OBJECT_FILE_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
 
-build CMakeFiles/Clase0-Intro-Vector.dir/clase2.cpp.obj: CXX_COMPILER__Clase0-Intro-Vector_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase2.cpp || cmake_object_order_depends_target_Clase0-Intro-Vector
-  DEP_FILE = CMakeFiles\Clase0-Intro-Vector.dir\clase2.cpp.obj.d
+build CMakeFiles/mi-proyecto-sencillo-de-clase.dir/clase2.cpp.obj: CXX_COMPILER__mi-proyecto-sencillo-de-clase_unscanned_Debug C$:/Users/Sergio/Documents/CPP2/clase2.cpp || cmake_object_order_depends_target_mi-proyecto-sencillo-de-clase
+  DEP_FILE = CMakeFiles\mi-proyecto-sencillo-de-clase.dir\clase2.cpp.obj.d
   FLAGS = -g -std=c++23 -Wall -Wextra -pedantic
-  OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
-  OBJECT_FILE_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+  OBJECT_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
+  OBJECT_FILE_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Clase0-Intro-Vector
+# Link build statements for EXECUTABLE target mi-proyecto-sencillo-de-clase
 
 
 #############################################
-# Link the executable debug\Clase0-Intro-Vector.exe
+# Link the executable debug\mi-proyecto-sencillo-de-clase.exe
 
-build debug/Clase0-Intro-Vector.exe: CXX_EXECUTABLE_LINKER__Clase0-Intro-Vector_Debug CMakeFiles/Clase0-Intro-Vector.dir/main.cpp.obj CMakeFiles/Clase0-Intro-Vector.dir/clase1.cpp.obj CMakeFiles/Clase0-Intro-Vector.dir/clase2.cpp.obj
+build debug/mi-proyecto-sencillo-de-clase.exe: CXX_EXECUTABLE_LINKER__mi-proyecto-sencillo-de-clase_Debug CMakeFiles/mi-proyecto-sencillo-de-clase.dir/main.cpp.obj CMakeFiles/mi-proyecto-sencillo-de-clase.dir/clase1.cpp.obj CMakeFiles/mi-proyecto-sencillo-de-clase.dir/clase2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Clase0-Intro-Vector.dir
+  OBJECT_DIR = CMakeFiles\mi-proyecto-sencillo-de-clase.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = debug\Clase0-Intro-Vector.exe
-  TARGET_IMPLIB = libClase0-Intro-Vector.dll.a
-  TARGET_PDB = Clase0-Intro-Vector.exe.dbg
+  TARGET_FILE = debug\mi-proyecto-sencillo-de-clase.exe
+  TARGET_IMPLIB = libmi-proyecto-sencillo-de-clase.dll.a
+  TARGET_PDB = mi-proyecto-sencillo-de-clase.exe.dbg
 
 
 #############################################
@@ -135,9 +135,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Clase0-Intro-Vector: phony debug/Clase0-Intro-Vector.exe
+build mi-proyecto-sencillo-de-clase: phony debug/mi-proyecto-sencillo-de-clase.exe
 
-build Clase0-Intro-Vector.exe: phony debug/Clase0-Intro-Vector.exe
+build mi-proyecto-sencillo-de-clase.exe: phony debug/mi-proyecto-sencillo-de-clase.exe
 
 # =============================================================================
 # Folder targets.
@@ -147,7 +147,7 @@ build Clase0-Intro-Vector.exe: phony debug/Clase0-Intro-Vector.exe
 #############################################
 # Folder: C:/Users/Sergio/Documents/CPP2/build
 
-build all: phony debug/Clase0-Intro-Vector.exe
+build all: phony debug/mi-proyecto-sencillo-de-clase.exe
 
 # =============================================================================
 # Built-in targets

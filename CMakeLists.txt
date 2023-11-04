@@ -1,8 +1,8 @@
 
 cmake_minimum_required(VERSION 3.24)
-project(Clase0-Intro-Vector
+project(mi-proyecto-sencillo-de-clase
 VERSION 0.1.0
-DESCRIPTION "Proyecto sencillo de C++ con un solo target"
+DESCRIPTION "Mi proyecto de C++ para clase"
 LANGUAGES CXX
 )
 add_executable(${PROJECT_NAME} main.cpp clase1.cpp clase2.cpp)

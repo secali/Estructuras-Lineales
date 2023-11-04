@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "debug/Clase0-Intro-Vector.exe"
+			"path" : "debug/mi-proyecto-sencillo-de-clase.exe"
 		},
 		{
-			"path" : "debug/Clase0-Intro-Vector.pdb"
+			"path" : "debug/mi-proyecto-sencillo-de-clase.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -92,7 +92,7 @@
 			]
 		}
 	],
-	"id" : "Clase0-Intro-Vector::@6890427a1f51a3e7e1df",
+	"id" : "mi-proyecto-sencillo-de-clase::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -112,8 +112,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Clase0-Intro-Vector",
-	"nameOnDisk" : "Clase0-Intro-Vector.exe",
+	"name" : "mi-proyecto-sencillo-de-clase",
+	"nameOnDisk" : "mi-proyecto-sencillo-de-clase.exe",
 	"paths" : 
 	{
 		"build" : ".",
