@@ -18,6 +18,13 @@ auto incrementar_una_unidad_por_referencia(int& n) -> void
 }
 
 
+//Es una buena práctica pasar las variables que no vamos a modificar por referencia y const
+auto mi_println(string const& str) -> void
+{
+    cout << str << '\n';
+}
+
+
 auto clase2 () -> int
 {
     //auto i = int {1};
@@ -35,4 +42,21 @@ auto clase2 () -> int
     incrementar_una_unidad_por_referencia(i);
     //ahora si se incrementa porque esta función si recibe el parametro por referencia
     pel:: println("i={}", i);
+
+
+    //Cómo crear un puntero:
+    auto i = int {1};
+    int *p = &i;        //el puntero p guarda la dirección de memoria de i
+
+    auto d = double{7.8};
+    double* q = &d;
+
+
+    //Ejercicio 1 Imprimir el valor de la variable i utilizando el puntero:
+    auto i = int {1};
+    int *p = &i;        //el puntero p guarda la dirección de memoria de i
+
+    pel::println("i={}", *p);   //Como p es el puntero que tiene la dirección de i, con * accedemos a la dirección de p
+
+
 }
